@@ -317,7 +317,6 @@ footer {
 @media (max-width:500px) {
   .walk .walk-img img {
     width: 100vw;
-    height: 50vh;
   }
 }
 @media (max-width:500px) {
