@@ -1,5 +1,21 @@
 // Home Content
-
+.head-container{
+  
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 20px 0;
+    border: 1px double #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 20px;
+    .walkers{
+      font-size: 3rem;
+    }
+}
 .home {
 
   .intro {
@@ -58,7 +74,13 @@
       }
 
       .btn {
+        .button-mixin(black, white);
+        &:hover{
+          background-color: white;
+          color: black;
+        }
       }
+
     }
 
     .walk-img {
